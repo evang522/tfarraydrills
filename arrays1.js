@@ -30,3 +30,24 @@ let numArr  = [];
 }
 
 max(numArr);
+
+let minArray = [1, 23, 3, -3, 1000];
+
+let min = (numbers) => {
+    if (numbers.length === 0) {
+        return undefined;
+    } else {
+        let i = 0;
+        let fakeMin = Infinity;
+        while (i < numbers.length) {
+            if (numbers[i] < fakeMin) {
+                fakeMin = numbers[i];
+            }
+            i++;
+        }
+        console.log(`${fakeMin} should be the lowest number in this array`);
+        return fakeMin;
+    }
+}
+
+min(minArray);
