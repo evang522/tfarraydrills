@@ -9,45 +9,45 @@
 
 // max
 
-let numArr  = [];
+// let numArr  = [];
 
- let max = (numbers) => {
-    // take the numbers array and run a while loop
-    if (numbers.length === 0) {
-        return null;
-    }  else {
-    let i = 0;
-    let baseNum = -Infinity;
-    while (i<numbers.length) {
-        if (numbers[i] > baseNum) {
-            baseNum = numbers[i];
-        }
-        i++
-    }
-    console.log(baseNum + ' Should be the highest number in this array');
-    return baseNum;
-    }
-}
+//  let max = (numbers) => {
+//     // take the numbers array and run a while loop
+//     if (numbers.length === 0) {
+//         return null;
+//     }  else {
+//     let i = 0;
+//     let baseNum = -Infinity;
+//     while (i<numbers.length) {
+//         if (numbers[i] > baseNum) {
+//             baseNum = numbers[i];
+//         }
+//         i++
+//     }
+//     console.log(baseNum + ' Should be the highest number in this array');
+//     return baseNum;
+//     }
+// }
 
-max(numArr);
+// max(numArr);
 
-let minArray = [1, 23, 3, -3, 1000];
+// let minArray = [1, 23, 3, -3, 1000];
 
-let min = (numbers) => {
-    if (numbers.length === 0) {
-        return undefined;
-    } else {
-        let i = 0;
-        let fakeMin = Infinity;
-        while (i < numbers.length) {
-            if (numbers[i] < fakeMin) {
-                fakeMin = numbers[i];
-            }
-            i++;
-        }
-        console.log(`${fakeMin} should be the lowest number in this array`);
-        return fakeMin;
-    }
-}
+// let min = (numbers) => {
+//     if (numbers.length === 0) {
+//         return undefined;
+//     } else {
+//         let i = 0;
+//         let fakeMin = Infinity;
+//         while (i < numbers.length) {
+//             if (numbers[i] < fakeMin) {
+//                 fakeMin = numbers[i];
+//             }
+//             i++;
+//         }
+//         console.log(`${fakeMin} should be the lowest number in this array`);
+//         return fakeMin;
+//     }
+// }
 
-min(minArray);
+// min(minArray);
